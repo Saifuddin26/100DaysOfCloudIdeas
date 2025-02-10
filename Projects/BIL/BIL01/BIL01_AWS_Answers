@@ -1,0 +1,16 @@
+How many billing alarms do you get for free?
+In Amazon Free Tier account, it gives 1o free billing alarms. 
+
+When a billing alarm is triggered how will you know?
+In Amazon Free Tier account, it has SNS simple notification service.
+It more depends on how it is configured for example is it set for sending 
+email when threshold achive or by SNS.
+It can be monitored in CloudWatch dashboard in AWS console.
+
+What is the difference between a billing alarm and a cloudwatch alarm?
+Billing Alarm
+  * Monitors AWS spending and triggers SNS/email on billing threshold reached
+  * Focused on cost management.
+CloudWatch Alarm 
+  * Monitors Various AWS resources for example EC2, it CPU usage and Disk metrics
+  * Alert based on how much resource is used and health metrics
